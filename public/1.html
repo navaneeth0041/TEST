@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Complatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title> car buying website</title>
+        <link rel = "stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="2.css">
+        </head>
+        <body>
+<header class="header">
+    <div id="menu-btn" class= "fas fa-bars"></div>
+    <a href="#" class="logo"> <span>Buzz</span>wheels</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">services</a>
+        <a href="#featured">featured</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contact">contact</a>
+
+    </nav>
+    <div id="login-btn">
+        <i class="far fa-user"></i>
+        <button class="btn" onclick="openReactLogin()">Login</button>
+    </div>
+
+    <script>
+        function openReactLogin() {
+            window.location.href = 'http://localhost:3000/login';
+        }
+    </script>
+</header>
+<!-- <div class="login-form-container">
+    <span class='fas fa-times-circle' style='font-size:24px' id ="close-login-form"></span> 
+
+</div> -->
+
+<section class="home" id ="home">
+    <h1 class="home-parallax" data-speed = "-2">find your car</h1>
+    <img class = "home-parallax" data-speed="5" src ="image-removebg-preview.png" alt = "">
+    <a href = "#" class = "btn home-parallax" data-speed="7">Explore cars</a>
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>150+</h3>
+            <p>branches</p>
+         </div>
+        </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>4770+</h3>
+            <p>cars sold</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>650+</h3>
+            <p>happy clients</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>870+</h3>
+            <p>new cars</p>
+        </div>
+    </div>
+</section>
+
+<section class="vehicles" id="vehicles">
+    <h1 class  = "heading">popular <span>vehicles</span></h1>
+
+    <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src = "audi.png" alt = "">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"><span>price:</span> $6500/- </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href = "#" class = "btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src = "audi2.png" alt = "">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"><span>price:</span> $6500/- </div>
+                    <p>
+                    new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href = "#" class = "btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src = "audi3.png" alt = "">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"><span>price:</span> $6500/- </div>
+                    <p>
+                    new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href = "#" class = "btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src = "audi4.png" alt = "">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"><span>price:</span> $6500/- </div>
+                    <p>
+                    new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href = "#" class = "btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src = "audi5.png" alt = "">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"><span>price:</span> $6500/- </div>
+                    <p>
+                    new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href = "#" class = "btn">check out</a>
+                </div>
+            </div>
+            <div class=" swiper-slide box">
+                <img src = "audi6.png" alt = "">
+                <div class="content">
+                    <h3>new model</h3>
+                    <div class="price"><span>price:</span> $65000/- </div>
+                    <p>
+                    new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href = "#" class = "btn">check out</a>
+                </div>
+            </div>
+        </div>
+<div class="swiper-pagination"></div>
+    </div>
+
+
+</section>
+
+<!--services section ends-->
+<section class="services" id="services">
+    <h1 class="heading">Our <span>Services</span></h1>
+    <div class="box-container">
+        <div class="box" onclick="flipBox(this)">
+            <div class="inner">
+                <div class="front">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-car"></i>
+                            <h3>Car Selling</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-car"></i>
+                            <h3>Car Selling</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box" onclick="flipBox(this)">
+            <div class="inner">
+                <div class="front">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-tools"></i>
+                            <h3>Parts Repair</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-tools"></i>
+                            <h3>Parts Reapir</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box" onclick="flipBox(this)">
+            <div class="inner">
+                <div class="front">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-car-crash"></i>
+                            <h3>Car Insurance</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-car-crash"></i>
+                            <h3>Car Insurance</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" onclick="flipBox(this)">
+            <div class="inner">
+                <div class="front">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-car-battery"></i>
+                            <h3>Battery Replacement</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-car-battery"></i>
+                            <h3>Battery Replacement</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" onclick="flipBox(this)">
+            <div class="inner">
+                <div class="front">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-gas-pump"></i>
+                            <h3>Oil Change</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-gas-pump"></i>
+                            <h3>Oil Change</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" onclick="flipBox(this)">
+            <div class="inner">
+                <div class="front">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-headset"></i>
+                            <h3>24/7 Support</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card">
+                        <div class="card-front">
+                            <i class="fas fa-headset"></i>
+                            <h3>24/7 Support</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquid!</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Other service boxes here -->
+        
+    </div>
+</section>
+<!-- Services section ends -->
+
+<!--Featured section starts-->
+<section class="featured" id="featured">
+    <h1 class="heading"><span>featured</span>cars</h1>
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="audi.png" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <br>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="audi4.png" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <br>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="audi2.png" alt="">
+                <h3>new model</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$55,000/-</div>
+                <br>
+                <a href="#" class="btn">check out</a>
+            </div>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="audi.png" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <br>
+                    <a href="#" class="btn">check out</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="audi4.png" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <br>
+                    <a href="#" class="btn">check out</a>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="audi2.png" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <br>
+                    <a href="#" class="btn">check out</a>
+                </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        
+</section>
+
+<!--Featured section ends-->
+
+
+<section class="newsletter">
+    <h3>
+      subscribe for latest updates
+    </h3>
+    <p>lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, ducimus.</p>
+    <form action="">
+      <input type = "email"  placeholder = "enter your email" name = ""  id ="">
+      <input type = "submit" class="subscribe" name = "" id ="">
+    </form>
+    
+  </section>
+
+
+<!--  review section starts -->
+
+
+<section class="review" id="review">
+    <h1 class="heading"> client's <span>review</span></h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+             <div class=" swiper-slide box">
+                <img src="pic-1.png" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis alias rem, voluptatem est minus odio amet accusamus qui nisi tempore?</p>
+                    <h3>john deo</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+             </div>
+
+             <div class=" swiper-slide box">
+                <img src="pic-2.png" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis alias rem, voluptatem est minus odio amet accusamus qui nisi tempore?</p>
+                    <h3>john deo</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+             </div>
+
+             <div class=" swiper-slide box">
+                <img src="pic-3.png" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis alias rem, voluptatem est minus odio amet accusamus qui nisi tempore?</p>
+                    <h3>john deo</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+             </div>
+
+             <div class=" swiper-slide box">
+                <img src="pic-4.png" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis alias rem, voluptatem est minus odio amet accusamus qui nisi tempore?</p>
+                    <h3>john deo</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+             </div>
+
+             <div class=" swiper-slide box">
+                <img src="pic-5.png" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis alias rem, voluptatem est minus odio amet accusamus qui nisi tempore?</p>
+                    <h3>john deo</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+             </div>
+
+             <div class="swiper-slide box">
+                <img src="pic-6.png" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis alias rem, voluptatem est minus odio amet accusamus qui nisi tempore?</p>
+                    <h3>john deo</h3>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!--  review section ends -->
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+            <script src="3.js">
+            </script>
+        </body>
+        </html>
